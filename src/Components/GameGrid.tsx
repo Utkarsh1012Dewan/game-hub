@@ -5,6 +5,7 @@ import GameCard from './GameCard';
 
 const GameGrid = () => {
 
+    //Calling the useGames function here to get the data of the games
     const { games, error } = useGames();
 
     return (
